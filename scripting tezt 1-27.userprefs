@@ -1,0 +1,39 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\GnereateCubes.cs">
+    <Files>
+      <File FileName="Assets\scripts\ExampleClass.cs" Line="12" Column="24" />
+      <File FileName="Assets\scripts\trigger.cs" Line="5" Column="39" />
+      <File FileName="Assets\scripts\colorChange.cs" Line="8" Column="41" />
+      <File FileName="Assets\scripts\floating.cs" Line="12" Column="38" />
+      <File FileName="Assets\scripts\LearningMethods.cs" Line="25" Column="1" />
+      <File FileName="Assets\scripts\makeCube.cs" Line="12" Column="6" />
+      <File FileName="Assets\scripts\GnereateCubes.cs" Line="18" Column="22" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="scripting tezt 1-27" expanded="True">
+            <Node name="Assembly-CSharp" expanded="True" />
+            <Node name="Assembly-CSharp-Editor-firstpass" expanded="True" />
+            <Node name="Assembly-CSharp-firstpass" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State name="__root__">
+          <Node name="scripting tezt 1-27" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Ekerin\Documents\unity\scripting tezt 1-27\Assets\scripts\float.cs" line="5" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
