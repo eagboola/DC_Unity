@@ -22,6 +22,12 @@ public class colorChange : MonoBehaviour {
         r.material.color=new Color(255, 0, 0);
     }
 
+    void OnCollisionExit ()
+	{
+		Debug.Log ("Enter");
+		r.material.color = new Color (0, 255, 0);
+	}
+
 
 }
  
