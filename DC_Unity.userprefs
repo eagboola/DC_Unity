@@ -1,16 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\floating.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\orbit.cs">
     <Files>
-      <File FileName="Assets\scripts\dayCycle.cs" Line="11" Column="2" />
-      <File FileName="Assets\scripts\Planter.cs" Line="26" Column="2" />
-      <File FileName="Assets\scripts\Explode.cs" Line="42" Column="2" />
-      <File FileName="Assets\scripts\PickStuffUp.cs" Line="55" Column="2" />
-      <File FileName="Assets\scripts\colorChange.cs" Line="29" Column="3" />
-      <File FileName="Assets\scripts\AssignSplatMap.cs" Line="40" Column="38" />
-      <File FileName="Assets\scripts\floating.cs" Line="23" Column="6" />
-      <File FileName="Assets\scripts\rotate.cs" Line="17" Column="48" />
-      <File FileName="Assets\scripts\rotateDependent.cs" Line="23" Column="5" />
+      <File FileName="Assets\scripts\voxel\easingFunction.cs" Line="11" Column="40" />
+      <File FileName="Assets\scripts\voxel\Easy.cs" Line="8" Column="42" />
+      <File FileName="Assets\scripts\voxel\polygonGenerator.cs" Line="27" Column="42" />
+      <File FileName="Assets\scripts\rotate.cs" Line="17" Column="47" />
+      <File FileName="Assets\scripts\orbit.cs" Line="9" Column="26" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,9 +14,12 @@
           <Node name="DC_Unity" expanded="True">
             <Node name="Assembly-CSharp" expanded="True">
               <Node name="scripts" expanded="True">
-                <Node name="floating.cs" selected="True" />
+                <Node name="voxel" expanded="True" />
+                <Node name="orbit.cs" selected="True" />
               </Node>
             </Node>
+            <Node name="Assembly-CSharp-Editor-firstpass" expanded="True" />
+            <Node name="Assembly-CSharp-firstpass" expanded="True" />
           </Node>
         </State>
       </Pad>

@@ -66,6 +66,9 @@
      <Compile Include="Assets\scripts\sinTransformation.cs" />
      <Compile Include="Assets\scripts\trigger.cs" />
      <Compile Include="Assets\scripts\verticalTransformation.cs" />
+     <Compile Include="Assets\scripts\voxel\Easy.cs" />
+     <Compile Include="Assets\scripts\voxel\easingFunction.cs" />
+     <Compile Include="Assets\scripts\voxel\polygonGenerator.cs" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />

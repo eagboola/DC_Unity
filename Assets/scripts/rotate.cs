@@ -14,7 +14,7 @@ public class rotate : MonoBehaviour {
 	void Update () 
 	{
 		//Rotate object around its local X axis at 1 degree per second
-		transform.Rotate(0, 0, Time.fixedDeltaTime*100);
+		transform.Rotate(0, 0, Time.fixedDeltaTime*8);
 
 		//Rotate object around world's y axis
 		//transform.Rotate(0, Time.deltaTime, 0, Space.World);
