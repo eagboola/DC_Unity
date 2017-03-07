@@ -28,7 +28,7 @@ public class orbit : MonoBehaviour {
 		//transform.RotateAround(GameObject.Find("p7").transform.position, axis, 30*Time.deltaTime);
 
 		transform.RotateAround(center.position, axis, rotationspeed * Time.deltaTime);
-		desiredPosition = (transform.position - center.position).normalized*radius+center.position;
-		transform.position = Vector3.MoveTowards(transform.position, desiredPosition, Time.deltaTime*radiusSpeed);
+		//desiredPosition = (transform.position - center.position).normalized*radius+center.position;
+		//transform.position = Vector3.MoveTowards(transform.position, desiredPosition, Time.deltaTime*radiusSpeed);
 	}
 }

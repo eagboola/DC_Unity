@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class trigger : MonoBehaviour {
 
+	public AudioSource audio;
 
 
 	// Use this for initialization
 	void Start () {
-		
+		audio = GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame
@@ -18,4 +19,19 @@ public class trigger : MonoBehaviour {
 
 	}
 
-}
+	void orbit ()
+	{
+		/*if (G.tag == ("smallRock")) {
+			orbit.stop;
+
+		}*/
+	}
+
+	void OnCollisionEnter ()
+	{
+		
+	}
+
+	}
+
+
