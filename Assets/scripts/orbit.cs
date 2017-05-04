@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class orbit : MonoBehaviour {
 
-	GameObject platform;
+	//GameObject platform;
 
 	public Transform center;
 	public Vector3 axis = Vector3.up;
@@ -15,8 +15,8 @@ public class orbit : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		platform = GameObject.Find("p7");
-		center = platform.transform;
+		//platform = GameObject.Find("p7");
+		//center = platform.transform;
 		transform.position = (transform.position - center.position).normalized * radius + center.position;
 		radius = 2.0f;
 			

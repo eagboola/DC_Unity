@@ -7,7 +7,9 @@ public class colorChange : MonoBehaviour {
 	Renderer r;
 	// public touching = GameObject.FindObjectOfType<AudioSource>();
 	//AudioSource touching;
-
+	//public Color colorEnter;
+	public Color colorStay;
+	public Color colorExit;
 
 
     // Use this for initialization
@@ -36,17 +38,17 @@ public class colorChange : MonoBehaviour {
    void OnCollisionEnter()
     {
         Debug.Log("Enter");
-      // r.material.color=new Color(190, 110, 0);
-		Color col = new Color (Random.value, Random.value, Random.value);
-		Color col2 = new Color (190,110,0);
-		r.material.color = col;
+        // r.material.color=new Color(190, 110, 0);
+		//Color col = new Color (Random.value, Random.value, Random.value);
+		//Color col2 = new Color (190,110,0);
+		//r.material.color = colorEnter;
 
     }
 
     void OnCollisionStay ()
 	{
-		Color col = new Color (Random.value, Random.value, Random.value);
-		r.material.color = new Color (0, 201, 74);
+		//Color col = new Color (Random.value, Random.value, Random.value);
+		r.material.color = colorStay;
 		//touching.Play();
 
 		/*if (GameObject.FindGameObjectsWithTag ("smallRock") != null) {
@@ -57,7 +59,7 @@ public class colorChange : MonoBehaviour {
     void OnCollisionExit ()
 	{
 		Debug.Log ("Left");
-		r.material.color = new Color (0, 255, 0);
+		r.material.color = colorExit;
 	}
 
 
